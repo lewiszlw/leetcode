@@ -43,7 +43,7 @@ import java.util.Arrays;
  * @author zhanglinwei02
  * @date 2019-03-28
  */
-public class _001TwoSum {
+public class _0001TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         int[] copyNums = nums.clone();

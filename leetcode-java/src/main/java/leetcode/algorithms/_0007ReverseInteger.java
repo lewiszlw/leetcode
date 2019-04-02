@@ -57,7 +57,7 @@ import java.util.List;
  * @author zhanglinwei02
  * @date 2019-04-01
  */
-public class _007ReverseInteger {
+public class _0007ReverseInteger {
 
     public int reverse(int x) {
         boolean positive = x >= 0? true: false;

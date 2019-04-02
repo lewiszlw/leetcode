@@ -61,7 +61,7 @@ import java.util.Objects;
  * @author zhanglinwei02
  * @date 2019-04-01
  */
-public class _009PalindromeNumber {
+public class _0009PalindromeNumber {
 
     public boolean isPalindrome(int x) {
         if (x < 0) {

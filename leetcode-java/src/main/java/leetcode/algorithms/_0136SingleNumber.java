@@ -48,7 +48,7 @@ import org.junit.Test;
  * @author zhanglinwei02
  * @date 2019-03-27
  */
-public class _136SingleNumber {
+public class _0136SingleNumber {
     public int singleNumber(int[] nums) {
         int result = 0;
         for (int i = 0; i < nums.length; i++) {
