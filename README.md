@@ -7,6 +7,8 @@
 
 [No.13 Roman to Integer](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java)
 
+[No.14 Longest Common Prefix](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0014LongestCommonPrefix.java)
+
 [No.21 Merge Two Sorted Lists](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0021MergeTwoSortedLists.java)
 
 [No.126 LRU Cache](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache.java)
