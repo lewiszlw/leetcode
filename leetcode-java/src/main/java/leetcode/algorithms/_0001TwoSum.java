@@ -3,6 +3,8 @@ package leetcode.algorithms;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * @lc app=leetcode id=1 lang=java
@@ -35,16 +37,23 @@ import java.util.Arrays;
 
 /**
  * Desc:
- * No.1 Two Sum
+ * 第一种解决办法（自己）：
  * 先复制一份数组，将其中一个数组排序，两个指针一个从起始出发，一个从末尾出发，
  * 如果和大于目标值，末尾指针向前移，如果和小于目标值，起始指针向后移，直至和为目标值，
  * 然后拿值去另一个数组找到索引值
+ *
+ * 第二种解决办法（参考别人的）:
+ * 利用HashMap结构，key为数组值，value为对应数组索引。遍历数组，查看target-nums[i]
+ * 是否在map中，若不在，则put(nums[i], i)到HashMap中，若在，则返回结果
  *
  * @author zhanglinwei02
  * @date 2019-03-28
  */
 public class _0001TwoSum {
 
+    /**
+     * 第一种解法
+     */
     public int[] twoSum(int[] nums, int target) {
         int[] copyNums = nums.clone();
 
@@ -83,6 +92,21 @@ public class _0001TwoSum {
         }
         int[] result = {index1, index2};
         return result;
+    }
+
+
+    /**
+     * 第二种解法
+     */
+    public int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                return new int[]{map.get(target-nums[i]), i};
+            }
+            map.put(nums[i], i);
+        }
+        return null;
     }
 
     @Test
