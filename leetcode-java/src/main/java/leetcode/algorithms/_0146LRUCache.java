@@ -63,7 +63,7 @@ import java.util.Map;
  * @author zhanglinwei02
  * @date 2019-04-02
  */
-public class _0126LRUCache {
+public class _0146LRUCache {
 
     private Node head;
 
@@ -71,7 +71,7 @@ public class _0126LRUCache {
 
     private Map<Integer, Integer> map;
 
-    public _0126LRUCache(int capacity) {
+    public _0146LRUCache(int capacity) {
         this.capacity = capacity;
         head = new Node(0);
         map = new HashMap<>();

@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.algorithms._0126LRUCache2;
+import leetcode.algorithms._0146LRUCache2;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,10 +10,10 @@ import org.junit.Test;
  * @author zhanglinwei02
  * @date 2019-04-04
  */
-public class _0126LRUCache2Test {
+public class _0146LRUCache2Test {
     @Test
     public void test() {
-        _0126LRUCache2 cache = new _0126LRUCache2(2);
+        _0146LRUCache2 cache = new _0146LRUCache2(2);
         cache.put(1, 1);
         cache.put(2, 2);
         Assert.assertTrue(cache.get(1) == 1);       // returns 1

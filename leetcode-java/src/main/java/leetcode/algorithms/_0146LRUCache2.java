@@ -63,7 +63,7 @@ import java.util.Map;
  * @author zhanglinwei02
  * @date 2019-04-04
  */
-public class _0126LRUCache2 {
+public class _0146LRUCache2 {
 
     /**
      * 存放key和节点，查询复杂度为O(1)
@@ -85,7 +85,7 @@ public class _0126LRUCache2 {
      */
     private DLinkedNode tail;
 
-    public _0126LRUCache2 (int capacity) {
+    public _0146LRUCache2(int capacity) {
         if (capacity < 0) {
             throw new IllegalArgumentException("Illegal initial capacity: " + capacity);
         }
