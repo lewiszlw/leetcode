@@ -1,6 +1,7 @@
 ## TODO
-自己解法不满意，需要学习他人解法：
+对自己解法不满意，需要学习他人解法：
 - No.14 Longest Common Prefix 
+- No.28 Implement strStr()
 - No.146 LRU Cache 
 
 ## LeetCode
@@ -31,6 +32,12 @@
 
 [No.26 Remove Duplicates from Sorted Array](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0026RemoveDuplicatesFromSortedArray.java)
 - solution (runtime: 99.99%)
+
+[No.27 Remove Element](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0027RemoveElement.java)
+- solution (runtime: 100%)
+
+[No.28 Implement strStr()](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0028ImplementstrStr.java)
+- solution (runtime: 92.33%)
 
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 - solution (runtime: 100%)
