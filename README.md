@@ -20,6 +20,8 @@ No.14 Longest Common Prefix
 
 [No.21 Merge Two Sorted Lists](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0021MergeTwoSortedLists.java)
 
+[No.26 Remove Duplicates from Sorted Array](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0026RemoveDuplicatesFromSortedArray.java)
+
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 
 No.146 LRU Cache [solution1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache.java)
