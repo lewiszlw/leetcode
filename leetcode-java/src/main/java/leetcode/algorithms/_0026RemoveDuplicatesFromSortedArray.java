@@ -69,6 +69,9 @@ import java.util.Arrays;
 
 /**
  * Desc:
+ * 思想：len=数组值变化次数+1
+ * 使用暂时变量tmp存储数组起始值，遍历数组，如果数组当前值不等于tmp，即为变化一次，此时更新tmp值，
+ * 将遍历数组当前值挪到前面，并len加1
  *
  * @author zhanglinwei02
  * @date 2019-04-08
