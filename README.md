@@ -1,4 +1,9 @@
-## Leetcode
+## TODO
+自己解法不满意，需要学习他人解法：
+
+No.14 Longest Common Prefix 
+
+## LeetCode
 [No.1 Two Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_001TwoSum.java)
 
 [No.2 Add Two Numbers](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0002AddTwoNumbers.java)
@@ -10,6 +15,8 @@
 [No.13 Roman to Integer](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java)
 
 [No.14 Longest Common Prefix](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0014LongestCommonPrefix.java)
+
+[No.20 Valid Parentheses](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0020ValidParentheses.java)
 
 [No.21 Merge Two Sorted Lists](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0021MergeTwoSortedLists.java)
 
