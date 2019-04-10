@@ -39,6 +39,12 @@
 [No.28 Implement strStr()](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0028ImplementstrStr.java)
 - solution (runtime: 92.33%)
 
+[No.35 Search Insert Position](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0035SearchInsertPosition.java)
+- solution (runtime: 100%)
+
+[No.38 Count and Say](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0038CountAndSay.java)
+- solution (runtime: 86.04%)
+
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 - solution (runtime: 100%)
 
