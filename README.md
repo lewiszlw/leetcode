@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/ZhaoxiZhang/LeetCodeCrawler/master/pictures/site-logo.png"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/22/1023-Solved/Total-blue.svg" alt="">
-    <img src="https://img.shields.io/badge/Easy-19-green.svg" alt="">
+    <img src="https://img.shields.io/badge/27/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/Easy-24-green.svg" alt="">
     <img src="https://img.shields.io/badge/Medium-2-orange.svg" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
@@ -15,6 +15,7 @@
 - No.67 Add Binary
 - No.69 Sqrt(x)
 - No.146 LRU Cache 
+- No.107 Binary Tree Level Order Traversal II
 
 ## LeetCode
 [No.1 Two Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_001TwoSum.java)
@@ -75,6 +76,21 @@
 
 [No.83 Remove Duplicates from Sorted List](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java)
 - solution (runtime: 100%)
+
+[No.100 Same Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java)
+- solution (runtime: 100%)
+
+[No.101 Symmetric Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0101SymmetricTree.java)
+- solution (runtime: 100%)
+
+[No.104 Maximum Depth of Binary Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0104MaximumDepthOfBinaryTree.java)
+- solution (runtime: 100%)
+
+[No.107 Binary Tree Level Order Traversal II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0107BinaryTreeLevelOrderTraversalII.java)
+- solution (runtime: 10.38%)
+
+[No.110 Balanced Binary Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0110BalancedBinaryTree.java)
+- solution (runtime: 80.4%)
 
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 - solution (runtime: 100%)
