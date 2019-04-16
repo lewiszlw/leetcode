@@ -1,7 +1,19 @@
+<p align="center"><img width="300" src="https://raw.githubusercontent.com/ZhaoxiZhang/LeetCodeCrawler/master/pictures/site-logo.png"></p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/22/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/Easy-19-green.svg" alt="">
+    <img src="https://img.shields.io/badge/Medium-2-orange.svg" alt="">
+    <img src="https://img.shields.io/badge/Hard-1-red.svg" alt="">
+    <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
+</p>
+
 ## TODO
 对自己解法不满意，需要学习他人解法：
 - No.14 Longest Common Prefix 
 - No.28 Implement strStr()
+- No.67 Add Binary
+- No.69 Sqrt(x)
 - No.146 LRU Cache 
 
 ## LeetCode
@@ -45,12 +57,31 @@
 [No.38 Count and Say](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0038CountAndSay.java)
 - solution (runtime: 86.04%)
 
+[No.58 Length of Last Word](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0058LengthOfLastWord.java)
+- solution (runtime: 87.88%)
+
+[No.66 Plus One](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0066PlusOne.java)
+- solution (runtime: 100%)
+
+[No.67 Add Binary](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0067AddBinary.java)
+- solution (runtime: 62.48%)
+
+[No.69 Sqrt(x)](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0069Sqrtx.java)
+- solution (runtime: 80.29%)
+
+[No.70 Climbing Stairs](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java)
+- solution1 (Time Limit Exceeded)
+- solution2 (runtime: 100%)
+
+[No.83 Remove Duplicates from Sorted List](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java)
+- solution (runtime: 100%)
+
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 - solution (runtime: 100%)
 
 No.146 LRU Cache 
-- [solution1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache.java)(runtime: 7.67%)
-- [solution2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache2.java)(runtime: 60.13%)
+- [solution1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache.java) (runtime: 7.67%)
+- [solution2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0126LRUCache2.java) (runtime: 60.13%)
 
 [No.445 Add Two Numbers II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java)
 - solution (runtime: 93.92%)
