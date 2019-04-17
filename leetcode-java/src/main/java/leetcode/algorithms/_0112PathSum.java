@@ -60,14 +60,24 @@ public class _0112PathSum {
         return hasPathSum(root, 0, sum);
     }
 
+    /**
+     * 递归遍历每个节点同时累积val之和，如果存在val之和满足条件，且节点为叶子节点，即为true
+     * @param root 当前节点
+     * @param sum 当前节点前路径上所有节点之和
+     * @param target 目标值
+     * @return
+     */
     private boolean hasPathSum(TreeNode root, int sum, int target) {
         if (root == null) {
             return false;
         }
+        // 当前节点不为空，sum值增加
         sum += root.val;
         if (sum == target && root.left == null && root.right == null) {
+            // sum值满足 且 当前节点为叶子节点
             return true;
         } else {
+            // 子节点是否有满足条件的
             return hasPathSum(root.left, sum, target) || hasPathSum(root.right, sum, target);
         }
     }
