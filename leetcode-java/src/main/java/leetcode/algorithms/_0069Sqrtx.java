@@ -75,6 +75,31 @@ public class _0069Sqrtx {
         return -1;
     }
 
+    /**
+     * 解法2
+     * 二分思想
+     */
+    public int mySqrt2(int x) {
+        long left = 0, right = x;
+        long ans = 0;
+        while (left <= right) {
+            long mid = (left + right) / 2;
+            if (mid * mid == x) {
+                return (int) mid;
+            }
+            if (mid * mid < x) {
+                left = mid + 1;
+                // 只在小于情况下更新ans，且将mid赋值给ans
+                ans = mid;
+            }
+            if (mid * mid > x) {
+                right = mid - 1;
+            }
+        }
+        return (int) ans;
+    }
+
+
     @Test
     public void test() {
         Assert.assertEquals(mySqrt(1), 1);
@@ -82,4 +107,13 @@ public class _0069Sqrtx {
         Assert.assertEquals(mySqrt(8), 2);
         Assert.assertEquals(mySqrt(2147395600), 46340);
     }
+
+    @Test
+    public void test2() {
+        Assert.assertEquals(mySqrt2(1), 1);
+        Assert.assertEquals(mySqrt2(4), 2);
+        Assert.assertEquals(mySqrt2(8), 2);
+        Assert.assertEquals(mySqrt2(2147395600), 46340);
+    }
+
 }
