@@ -153,6 +153,6 @@ No.169 Majority Element
 [No.445 Add Two Numbers II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java)
 - solution (runtime: 93.92%)
 
-# | Title | Difficulty | Solution 
---|-------|------------|----------
-771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(64.06%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(98.24%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(59.1%)
+| # | Title | Difficulty | Solution |
+|---|-------|------------|-----------|
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(64.06%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(98.24%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(59.1%) |
