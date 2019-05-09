@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/ZhaoxiZhang/LeetCodeCrawler/master/pictures/site-logo.png"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/39/1023-Solved/Total-blue.svg" alt="">
-    <img src="https://img.shields.io/badge/Easy-36-green.svg" alt="">
+    <img src="https://img.shields.io/badge/43/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/Easy-40-green.svg" alt="">
     <img src="https://img.shields.io/badge/Medium-2-orange.svg" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
@@ -10,16 +10,17 @@
 
 ## TODO
 对自己解法不满意，或者想看看他人解法：
-- No.14 Longest Common Prefix 
 - No.28 Implement strStr()
-- No.67 Add Binary
-- No.69 Sqrt(x)
 - No.146 LRU Cache 
 - No.107 Binary Tree Level Order Traversal II
 - No.119 Pascal's Triangle II
 - No.155 Min Stack
 - No.167 Two Sum II - Input array is sorted
 - No.169 Majority Element
+- No.217 Contains Duplicate
+
+需回顾解法：
+- No.69 Sqrt(x)
 
 ## LeetCode (Java)
 [No.1 Two Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_001TwoSum.java)
@@ -137,8 +138,21 @@ No.169 Majority Element
 [No.171 Excel Sheet Column Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0171ExcelSheetColumnNumber.java)
 - solution (runtime: 99.9%)
 
+[No.217 Contains Duplicate](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0217ContainsDuplicate.java)
+- solution (runtime: 56.7%)
+
+[No.231 Power of Two](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0231PowerOfTwo.java)
+- solution (runtime: 93.16%)
+
+[No.232 Implement Queue using Stacks](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java)
+- solution (runtime: 82.99%)
+
 [No.374 Guess Number Higher or Lower](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java)
 - solution (runtime: 100%)
 
 [No.445 Add Two Numbers II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java)
 - solution (runtime: 93.92%)
+
+# | Title | Difficulty | Solution 
+--|-------|------------|----------
+771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(64.06%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(98.24%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(59.1%)
