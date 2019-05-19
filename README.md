@@ -1,8 +1,8 @@
-<p align="center"><img width="300" src="https://raw.githubusercontent.com/ZhaoxiZhang/LeetCodeCrawler/master/pictures/site-logo.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lewiszlw/notebooks/master/assets/leetcode/leetcode-icon.jpeg"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/43/1023-Solved/Total-blue.svg" alt="">
-    <img src="https://img.shields.io/badge/Easy-40-green.svg" alt="">
+    <img src="https://img.shields.io/badge/45/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/Easy-42-green.svg" alt="">
     <img src="https://img.shields.io/badge/Medium-2-orange.svg" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
@@ -18,9 +18,11 @@
 - No.167 Two Sum II - Input array is sorted
 - No.169 Majority Element
 - No.217 Contains Duplicate
+- No.543 Diameter of Binary Tree
 
 需回顾解法：
 - No.69 Sqrt(x)
+- No.53 Maximum Subarray
 
 ## LeetCode (Java)
 [No.1 Two Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_001TwoSum.java)
@@ -144,15 +146,11 @@ No.169 Majority Element
 [No.231 Power of Two](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0231PowerOfTwo.java)
 - solution (runtime: 93.16%)
 
-[No.232 Implement Queue using Stacks](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java)
-- solution (runtime: 82.99%)
-
-[No.374 Guess Number Higher or Lower](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java)
-- solution (runtime: 100%)
-
-[No.445 Add Two Numbers II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java)
-- solution (runtime: 93.92%)
-
 | # | Title | Difficulty | Solution |
 |---|-------|------------|-----------|
-| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(64.06%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(98.24%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java)(59.1%) |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0053MaximumSubarray.java) (95.05%) | 
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
+| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java) (100%) |
+| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java) (93.92%) |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0543DiameterOfBinaryTree.java) (61.25%) |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java) (64.06%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java) (98.24%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0771JewelsAndStones.java) (59.1%) |
