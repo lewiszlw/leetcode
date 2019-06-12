@@ -1,9 +1,9 @@
 <p align="center"><img src="https://raw.githubusercontent.com/lewiszlw/notebooks/master/assets/leetcode/leetcode-icon.jpeg"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/45/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/48/1023-Solved/Total-blue.svg" alt="">
     <img src="https://img.shields.io/badge/Easy-42-green.svg" alt="">
-    <img src="https://img.shields.io/badge/Medium-2-orange.svg" alt="">
+    <img src="https://img.shields.io/badge/Medium-5-orange.svg" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
 </p>
@@ -19,6 +19,8 @@
 - No.169 Majority Element
 - No.217 Contains Duplicate
 - No.543 Diameter of Binary Tree
+- No.3 Longest Substring Without Repeating Characters
+- No.5 Longest Palindromic Substring
 
 需回顾解法：
 - No.69 Sqrt(x)
@@ -148,8 +150,11 @@ No.169 Majority Element
 
 | # | Title | Difficulty | Solution |
 |---|-------|------------|-----------|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (7.12%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (51.84%)
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (60.07%)
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0053MaximumSubarray.java) (95.05%) | 
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0240SearchA2DMatrixII.java) (100%)
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java) (100%) |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java) (93.92%) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0543DiameterOfBinaryTree.java) (61.25%) |
