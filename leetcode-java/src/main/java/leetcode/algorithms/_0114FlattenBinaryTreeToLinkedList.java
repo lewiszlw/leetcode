@@ -59,7 +59,6 @@ import org.junit.Test;
 
 /**
  * Desc:
- * 注：Binary Tree 指 Binary Search Tree (Binary Sorted Tree)
  *
  * @author zhanglinwei02
  * @date 2019-06-16
