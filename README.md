@@ -1,9 +1,9 @@
 <p align="center"><img src="https://raw.githubusercontent.com/lewiszlw/notebooks/master/assets/leetcode/leetcode-icon.jpeg"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/53/1023-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/55/1023-Solved/Total-blue.svg" alt="">
     <img src="https://img.shields.io/badge/Easy-42-green.svg" alt="">
-    <img src="https://img.shields.io/badge/Medium-9-orange.svg" alt="">
+    <img src="https://img.shields.io/badge/Medium-11-orange.svg" alt="">
     <img src="https://img.shields.io/badge/Hard-2-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
 </p>
@@ -21,31 +21,15 @@
 - No.543 Diameter of Binary Tree
 - No.3 Longest Substring Without Repeating Characters
 - No.5 Longest Palindromic Substring
-- No.23 Merge k Sorted Lists 
+- No.23 Merge k Sorted Lists
+- No.211 Add and Search Word - Data structure design
+
 
 需回顾解法：
 - No.69 Sqrt(x)
 - No.53 Maximum Subarray
 
 ## LeetCode (Java)
-[No.1 Two Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_001TwoSum.java)
-- solution1 (runtime: 99.73%)
-- solution2 (runtime: 99.73%)
-
-[No.2 Add Two Numbers](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0002AddTwoNumbers.java)
-- solution (runtime: 97.82%)
-
-[No.7 Reverse Integer](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_007ReverseInteger.java)
-- solution (runtime: 88.97%)
-
-[No.9 Palindrome Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_009PalindromeNumber.java)
-- solution (runtime: 91.65%)
-
-[No.13 Roman to Integer](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java)
-- solution (runtime: 92.7%)
-
-[No.14 Longest Common Prefix](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0014LongestCommonPrefix.java)
-- solution (runtime: 95.31%)
 
 [No.20 Valid Parentheses](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0020ValidParentheses.java)
 - solution (runtime: 93.12%)
@@ -151,11 +135,19 @@ No.169 Majority Element
 
 | # | Title | Difficulty | Solution |
 |---|-------|------------|-----------|
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (7.12%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (51.84%)
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (60.07%)
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (5%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (99.25%)
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0001TwoSum.java) (99.73%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0001TwoSum.java) (99.73%) |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0002AddTwoNumbers.java) (97.82%) |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (7.12%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (51.84%) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (60.07%) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0007ReverseInteger.java) (88.97%) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0009PalindromeNumber.java) (91.65%) |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java) (92.7%) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0014LongestCommonPrefix.java) (95.31%) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (5%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (99.25%) |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0048RotateImage.java) (100%) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0053MaximumSubarray.java) (95.05%) | 
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0114FlattenBinaryTreeToLinkedList.java) (23.09%)
+| 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0211AddAndSearchWord_DataStructureDesign.java) (6.91%) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0240SearchA2DMatrixII.java) (100%)
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java) (100%) |
