@@ -19,8 +19,6 @@
 - No.169 Majority Element
 - No.217 Contains Duplicate
 - No.543 Diameter of Binary Tree
-- No.3 Longest Substring Without Repeating Characters
-- No.5 Longest Palindromic Substring
 - No.23 Merge k Sorted Lists
 - No.211 Add and Search Word - Data structure design
 
@@ -139,7 +137,7 @@ No.169 Majority Element
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0002AddTwoNumbers.java) (97.82%) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (7.12%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0003LongestSubstringWithoutRepeatingCharacters.java) (51.84%) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | Hard | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0004MedianOfTwoSortedArrays.java) (82.43%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0004MedianOfTwoSortedArrays.java) (82.39%) |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (60.07%) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (60.07%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0005LongestPalindromicSubstring.java) (26.01%) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0007ReverseInteger.java) (88.97%) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0009PalindromeNumber.java) (91.65%) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java) (92.7%) |
