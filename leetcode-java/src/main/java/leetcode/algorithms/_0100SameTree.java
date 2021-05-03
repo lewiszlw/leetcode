@@ -80,6 +80,9 @@ import java.util.List;
  */
 public class _0100SameTree {
 
+    /**
+     * 解法1: 对两个树使用相同遍历方式得到两个数组，然后比较两个数组
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
         List<TreeNode> listP = new ArrayList<>();
         List<TreeNode> listQ = new ArrayList<>();
@@ -126,6 +129,30 @@ public class _0100SameTree {
         }
     }
 
+
+
+    /**
+     * 解法2：对两个树使用相同遍历方式，遍历的同时进行比较
+     */
+    public boolean isSameTree2(TreeNode p, TreeNode q) {
+        return preOrderAndCompare(p, q);
+    }
+
+    private boolean preOrderAndCompare(TreeNode p1, TreeNode p2) {
+        // 一个或两个节点为null，即叶子节点的left/right节点
+        if (p1 == null || p2 == null) {
+            return p1 == p2;
+        }
+
+        // 两个节点不为null
+        if (p1.val == p2.val) {
+            return preOrderAndCompare(p1.left, p2.left) && preOrderAndCompare(p1.right, p2.right);
+        } else {
+            return false;
+        }
+    }
+
+
     class TreeNode {
         int val;
         TreeNode left;
@@ -165,5 +192,39 @@ public class _0100SameTree {
         Assert.assertFalse(isSameTree(m1, n1));
 
         Assert.assertTrue(isSameTree(null, null));
+    }
+
+    @Test
+    public void test2() {
+        TreeNode p1 = new TreeNode(1);
+        TreeNode p2 = new TreeNode(2);
+        TreeNode p3 = new TreeNode(3);
+        p1.left = p2; p1.right = p3;
+        TreeNode q1 = new TreeNode(1);
+        TreeNode q2 = new TreeNode(2);
+        TreeNode q3 = new TreeNode(3);
+        q1.left = q2; q1.right = q3;
+        Assert.assertTrue(isSameTree2(p1, q1));
+
+
+        TreeNode a1 = new TreeNode(1);
+        TreeNode a2 = new TreeNode(2);
+        a1.left = a2;
+        TreeNode b1 = new TreeNode(1);
+        TreeNode b2 = new TreeNode(2);
+        b1.right = b2;
+        Assert.assertFalse(isSameTree2(a1, b1));
+
+        TreeNode m1 = new TreeNode(1);
+        TreeNode m2 = new TreeNode(2);
+        TreeNode m3 = new TreeNode(1);
+        m1.left = m2; m1.right = m3;
+        TreeNode n1 = new TreeNode(1);
+        TreeNode n2 = new TreeNode(1);
+        TreeNode n3 = new TreeNode(2);
+        n1.left = n2; n1.right = n3;
+        Assert.assertFalse(isSameTree2(m1, n1));
+
+        Assert.assertTrue(isSameTree2(null, null));
     }
 }

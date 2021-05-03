@@ -26,9 +26,6 @@
 
 ## LeetCode (Java)
 
-[No.100 Same Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java)
-- solution (runtime: 100%)
-
 [No.101 Symmetric Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0101SymmetricTree.java)
 - solution (runtime: 100%)
 
@@ -118,6 +115,7 @@ No.169 Majority Element
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java) (Time Limit Exceeded)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java) (100%) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java) (100%) |
 | 88 | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0088MergeSortedArray.java) (24.54%) |
+| 100 | [Same Tree](https://leetcode-cn.com/problems/same-tree/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java) (100%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java) (100%) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0114FlattenBinaryTreeToLinkedList.java) (23.09%)
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0211AddAndSearchWord_DataStructureDesign.java) (6.91%) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
