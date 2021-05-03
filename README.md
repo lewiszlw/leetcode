@@ -12,7 +12,6 @@
 对自己解法不满意，或者想看看他人解法：
 - No.28 Implement strStr()
 - No.146 LRU Cache 
-- No.107 Binary Tree Level Order Traversal II
 - No.119 Pascal's Triangle II
 - No.155 Min Stack
 - No.167 Two Sum II - Input array is sorted
@@ -25,24 +24,6 @@
 需回顾解法：
 
 ## LeetCode (Java)
-
-[No.101 Symmetric Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0101SymmetricTree.java)
-- solution (runtime: 100%)
-
-[No.104 Maximum Depth of Binary Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0104MaximumDepthOfBinaryTree.java)
-- solution (runtime: 100%)
-
-[No.107 Binary Tree Level Order Traversal II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0107BinaryTreeLevelOrderTraversalII.java)
-- solution (runtime: 10.38%)
-
-[No.110 Balanced Binary Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0110BalancedBinaryTree.java)
-- solution (runtime: 80.4%)
-
-[No.111 Minimum Depth of Binary Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0111MinimumDepthOfBinaryTree.java)
-- solution (runtime: 100%)
-
-[No.112 Path Sum](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0112PathSum.java)
-- solution (runtime: 100%)
 
 [No.118 Pascal's Triangle](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0118PascalsTriangle.java)
 - solution (runtime: 100%)
@@ -116,6 +97,12 @@ No.169 Majority Element
 | 83 | [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java) (100%) |
 | 88 | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0088MergeSortedArray.java) (24.54%) |
 | 100 | [Same Tree](https://leetcode-cn.com/problems/same-tree/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java) (100%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java) (100%) |
+| 101 | [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0101SymmetricTree.java) (100%) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0104MaximumDepthOfBinaryTree.java) (100%) |
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0107BinaryTreeLevelOrderTraversalII.java) (10.38%) |
+| 110 | [Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0110BalancedBinaryTree.java) (80.4%) |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0111MinimumDepthOfBinaryTree.java) (100%) |
+| 112 | [Path Sum](https://leetcode-cn.com/problems/path-sum/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0112PathSum.java) (100%) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0114FlattenBinaryTreeToLinkedList.java) (23.09%)
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0211AddAndSearchWord_DataStructureDesign.java) (6.91%) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
