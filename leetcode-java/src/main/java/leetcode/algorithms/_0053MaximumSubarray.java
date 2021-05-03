@@ -91,12 +91,46 @@ public class _0053MaximumSubarray {
         return leftMaxSum > rightMaxSum ? Math.max(leftMaxSum, midMaxSum) : Math.max(rightMaxSum, midMaxSum);
     }
 
+
+
+    /**
+     * 解法2：动态规划
+     * f(i) 代表以第 i 个数结尾的「连续子数组的最大和」, 则
+     *     f(i) = max{f(i-1) + nums[i], nums[i]}
+     * 求f(i)，需比较两段 1.f(i-1)和nums[i]组成一段，2.nums[i]单独成为一段。因为比较包含nums[i]在内。
+     */
+    public int maxSubArray2(int[] nums) {
+        // dp[i] 表以第 i 个数结尾的「连续子数组的最大和」
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+
+        int maxAns = dp[0];
+        for (int i = 1; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+            if (dp[i] > maxAns) {
+                maxAns = dp[i];
+            }
+        }
+        return maxAns;
+    }
+
+
+
+
     @Test
     public void test() {
         Assert.assertTrue(maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}) == 6);
         Assert.assertTrue(maxSubArray(new int[]{-2,-1}) == -1);
         Assert.assertTrue(maxSubArray(new int[]{8,-19,5,-4,20}) == 21);
         Assert.assertTrue(maxSubArray(new int[]{1,2}) == 3);
+    }
+
+    @Test
+    public void test2() {
+        Assert.assertTrue(maxSubArray2(new int[]{-2,1,-3,4,-1,2,1,-5,4}) == 6);
+        Assert.assertTrue(maxSubArray2(new int[]{-2,-1}) == -1);
+        Assert.assertTrue(maxSubArray2(new int[]{8,-19,5,-4,20}) == 21);
+        Assert.assertTrue(maxSubArray2(new int[]{1,2}) == 3);
     }
 
 }
