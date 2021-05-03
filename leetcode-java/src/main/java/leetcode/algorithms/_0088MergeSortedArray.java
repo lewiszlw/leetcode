@@ -37,6 +37,11 @@ package leetcode.algorithms;
  *
  */
 
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.Arrays;
+
 /**
  * Desc:
  *
@@ -46,6 +51,19 @@ package leetcode.algorithms;
 public class _0088MergeSortedArray {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        // 将nums2数组移到nums1数组上
+        for (int i = 0; i < nums2.length; i++) {
+            nums1[m + i] = nums2[i];
+        }
 
+        Arrays.sort(nums1);
+    }
+
+    @Test
+    public void test() {
+        int[] nums1 = new int[]{1,2,3,0,0,0};
+        int[] nums2 = new int[]{2,5,6};
+        merge(nums1, 3, nums2, 3);
+        Assert.assertArrayEquals(new int[]{1,2,2,3,5,6}, nums1);
     }
 }

@@ -23,29 +23,8 @@
 
 
 需回顾解法：
-- No.69 Sqrt(x)
-- No.53 Maximum Subarray
 
 ## LeetCode (Java)
-
-[No.58 Length of Last Word](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0058LengthOfLastWord.java)
-- solution (runtime: 87.88%)
-
-[No.66 Plus One](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0066PlusOne.java)
-- solution (runtime: 100%)
-
-[No.67 Add Binary](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0067AddBinary.java)
-- solution (runtime: 62.48%)
-
-[No.69 Sqrt(x)](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0069Sqrtx.java)
-- solution (runtime: 80.29%)
-
-[No.70 Climbing Stairs](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java)
-- solution1 (Time Limit Exceeded)
-- solution2 (runtime: 100%)
-
-[No.83 Remove Duplicates from Sorted List](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java)
-- solution (runtime: 100%)
 
 [No.100 Same Tree](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0100SameTree.java)
 - solution (runtime: 100%)
@@ -132,6 +111,13 @@ No.169 Majority Element
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0047PermutationsII.java) (10.89%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0047PermutationsII.java) ( 35.05%) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0048RotateImage.java) (100%) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0053MaximumSubarray.java) (95.05%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0053MaximumSubarray.java) (94.97%) | 
+| 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0058LengthOfLastWord.java) (87.88%) |
+| 66 | [Plus One](https://leetcode-cn.com/problems/plus-one/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0066PlusOne.java) (100%) |
+| 67 | [Add Binary](https://leetcode-cn.com/problems/add-binary/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0067AddBinary.java) (62.48%) |
+| 69 | [Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0069Sqrtx.java) (80.29%) |
+| 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java) (Time Limit Exceeded)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0070ClimbingStairs.java) (100%) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0083RemoveDuplicatesFromSortedList.java) (100%) |
+| 88 | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0088MergeSortedArray.java) (24.54%) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0114FlattenBinaryTreeToLinkedList.java) (23.09%)
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0211AddAndSearchWord_DataStructureDesign.java) (6.91%) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0232ImplementQueueUsingStacks.java) (82.99%) |
