@@ -91,6 +91,9 @@ import org.junit.Test;
  */
 public class _0013RomanToInteger {
 
+    /**
+     * 解法：从末尾往前读
+     */
     public int romanToInt(String s) {
         int result = 0;
 
@@ -98,9 +101,12 @@ public class _0013RomanToInteger {
 
         int i = chars.length - 1;
         while (i >= 0) {
+            // 当前罗马数和前一个罗马数
             RomanNum romanNum = RomanNum.getInstance(chars[i]);
             RomanNum preRomanNum = i > 0? RomanNum.getInstance(chars[i-1]): null;
+
             if (preRomanNum != null && preRomanNum == romanNum.before()) {
+                // IV, IX, XL, XC, CD, CM
                 result += romanNum.value - preRomanNum.value;
                 i -= 2;
             } else {
