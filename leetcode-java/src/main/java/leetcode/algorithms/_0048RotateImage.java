@@ -78,6 +78,7 @@ public class _0048RotateImage {
     /**
      * 解法：
      * (m,n)顺时针旋转90度后的位置是(n,len-1-m)
+     * m为纵坐标，n为横坐标
      */
     public void rotate(int[][] matrix) {
         if (matrix == null || matrix.length == 1) {

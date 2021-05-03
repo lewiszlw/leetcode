@@ -19,7 +19,6 @@
 - No.169 Majority Element
 - No.217 Contains Duplicate
 - No.543 Diameter of Binary Tree
-- No.23 Merge k Sorted Lists
 - No.211 Add and Search Word - Data structure design
 
 
@@ -28,27 +27,6 @@
 - No.53 Maximum Subarray
 
 ## LeetCode (Java)
-
-[No.20 Valid Parentheses](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0020ValidParentheses.java)
-- solution (runtime: 93.12%)
-
-[No.21 Merge Two Sorted Lists](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0021MergeTwoSortedLists.java)
-- solution (runtime: 100%)
-
-[No.26 Remove Duplicates from Sorted Array](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0026RemoveDuplicatesFromSortedArray.java)
-- solution (runtime: 99.99%)
-
-[No.27 Remove Element](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0027RemoveElement.java)
-- solution (runtime: 100%)
-
-[No.28 Implement strStr()](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0028ImplementstrStr.java)
-- solution (runtime: 92.33%)
-
-[No.35 Search Insert Position](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0035SearchInsertPosition.java)
-- solution (runtime: 100%)
-
-[No.38 Count and Say](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0038CountAndSay.java)
-- solution (runtime: 86.04%)
 
 [No.58 Length of Last Word](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0058LengthOfLastWord.java)
 - solution (runtime: 87.88%)
@@ -142,7 +120,14 @@ No.169 Majority Element
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0009PalindromeNumber.java) (91.65%) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0013RomanToInteger.java) (92.7%) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0014LongestCommonPrefix.java) (95.31%) |
+| 20 | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0020ValidParentheses.java) (93.12%) |
+| 21 | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0021MergeTwoSortedLists.java) (100%) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (5%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0023MergeKSortedLists.java) (99.25%) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0026RemoveDuplicatesFromSortedArray.java) (99.99%) |
+| 27 | [Remove Element](https://leetcode-cn.com/problems/remove-element/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0027RemoveElement.java) (100%) |
+| 28 | [Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0028ImplementstrStr.java) (92.33%) |
+| 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0035SearchInsertPosition.java) (100%) |
+| 38 | [Count and Say](https://leetcode-cn.com/problems/count-and-say/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0038CountAndSay.java) (86.04%) |
 | 46 | [Permutations](https://leetcode-cn.com/problems/permutations/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0046Permutations.java) (22.65%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0046Permutations.java) (53.36%) |
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0047PermutationsII.java) (10.89%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0047PermutationsII.java) ( 35.05%) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0048RotateImage.java) (100%) |
