@@ -11,7 +11,6 @@
 ## TODO
 对自己解法不满意，或者想看看他人解法：
 - No.28 Implement strStr()
-- No.146 LRU Cache 
 - No.119 Pascal's Triangle II
 - No.155 Min Stack
 - No.167 Two Sum II - Input array is sorted
@@ -108,6 +107,7 @@ No.169 Majority Element
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0374GuessNumberHigherOrLower.java) (100%) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0416PartitionEqualSubsetSum.java) (68.65%)
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0445AddTwoNumbersII.java) (93.92%) |
+| 470 | [Implement Rand10() Using Rand7()](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0470ImplementRand10UsingRand7.java) (12.67%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0470ImplementRand10UsingRand7.java) (37.08%) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0543DiameterOfBinaryTree.java) (61.25%) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | Meduim | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0583DeleteOperationForTwoStrings.java) (52.53%) |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0718MaximumLengthOfRepeatedSubarray.java) (87.36%) |
