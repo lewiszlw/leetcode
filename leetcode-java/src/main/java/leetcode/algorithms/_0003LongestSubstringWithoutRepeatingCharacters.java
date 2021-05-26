@@ -55,8 +55,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -136,6 +138,31 @@ public class _0003LongestSubstringWithoutRepeatingCharacters {
         return max;
     }
 
+    /**
+     * 解法3：双指针优化
+     * 两个指针形成一个滑动窗口，截取最长的不重复子串，当遇到下一个字符与子串某一个字符A重复，左指针跳到字符A下一个元素
+     */
+    public int lengthOfLongestSubstring3(String s) {
+        int i = 0, j = 0, max = 0;
+        // char -> char在字符串上的下标
+        Map<Character, Integer> map = new HashMap<>();
+        while (j < s.length()) {
+            char curr = s.charAt(j);
+            if (map.containsKey(curr)) {
+                // 这里重复元素可能是跟左指针左侧元素重复，因为并没有从map中移除滑动窗口外的元素
+                // 左指针移到重复字符下一个元素
+                i = Math.max(i, map.get(curr) + 1);
+            }
+            // 新的重复元素覆盖之前重复元素
+            map.put(curr, j);
+            max = Math.max(max, j - i + 1);
+            // 右指针往右移一位
+            j ++;
+        }
+        return max;
+    }
+
+
 
     @Test
     public void test() {
@@ -151,5 +178,14 @@ public class _0003LongestSubstringWithoutRepeatingCharacters {
         Assert.assertTrue(lengthOfLongestSubstring2("bbbbb") == 1);
         Assert.assertTrue(lengthOfLongestSubstring2("pwwkew") == 3);
         Assert.assertTrue(lengthOfLongestSubstring2(" ") == 1);
+    }
+
+    @Test
+    public void test3() {
+        Assert.assertTrue(lengthOfLongestSubstring3("abcabcbb") == 3);
+        Assert.assertTrue(lengthOfLongestSubstring3("bbbbb") == 1);
+        Assert.assertTrue(lengthOfLongestSubstring3("pwwkew") == 3);
+        Assert.assertTrue(lengthOfLongestSubstring3(" ") == 1);
+        Assert.assertTrue(lengthOfLongestSubstring3("abba") == 2);
     }
 }
