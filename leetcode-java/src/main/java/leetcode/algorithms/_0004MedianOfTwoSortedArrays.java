@@ -110,6 +110,8 @@ public class _0004MedianOfTwoSortedArrays {
     }
 
 
+
+
     /**
      * 解法2：二分查找
      *
@@ -300,6 +302,84 @@ public class _0004MedianOfTwoSortedArrays {
 
 
 
+
+    /**
+     * 解法3
+     * 利用滑动窗口，维持一个长度为2的滑动窗口，不断右移滑动窗口到中位数附近
+     */
+    public double findMedianSortedArrays3(int[] nums1, int[] nums2) {
+        int totalLength = nums1.length + nums2.length;
+        boolean isOdd = totalLength % 2 == 1;
+
+        // 边界情况：其中一个数组为空
+        if (nums1.length == 0) {
+            return isOdd ? nums2[(nums2.length - 1) / 2] : (double) (nums2[nums2.length / 2] + nums2[(nums2.length / 2) - 1]) / 2;
+        }
+        if (nums2.length == 0) {
+            return isOdd ? nums1[(nums1.length - 1) / 2] : (double) (nums1[nums1.length / 2] + nums1[(nums1.length / 2) - 1]) / 2;
+        }
+
+        // 总步数
+        int steps = totalLength / 2 + 1;
+        // nums1Step, nums2Step分别为nums1和nums2中走到了第几步
+        int nums1Step = -1;
+        int nums2Step = -1;
+        // 滑动窗口左右指针
+        int left = -2, right = -1;
+        // 左右指针所处数组，0代表nums1，1代表nums2
+        int leftPos = -1;
+        int rightPos = -1;
+
+        // 当前步数不能超过总步数
+        while (nums1Step + 1 + nums2Step + 1 < steps) {
+
+            if (nums1Step < nums1.length - 1 && nums2Step < nums2.length - 1) {
+                // 下一步走nums1Step + 1 还是 nums2Step + 1
+                if (nums1[nums1Step + 1] < nums2[nums2Step + 1]) {
+                    // 左指针到右指针处，左指针所处数组也为右指针所处数组
+                    left = right;
+                    leftPos = rightPos;
+                    // 右指针到下一步，右指针所处数组更新
+                    right = nums1Step + 1;
+                    rightPos = 0;
+                    // 步数加一
+                    nums1Step ++;
+                } else {
+                    left = right;
+                    leftPos = rightPos;
+                    right = nums2Step + 1;
+                    rightPos = 1;
+                    nums2Step ++;
+                }
+                continue;
+            }
+            if (nums1Step == nums1.length - 1) {
+                left = right;
+                leftPos = rightPos;
+                right = nums2Step + 1;
+                rightPos = 1;
+                nums2Step ++;
+                continue;
+            }
+            if (nums2Step == nums2.length - 1) {
+                left = right;
+                leftPos = rightPos;
+                right = nums1Step + 1;
+                rightPos = 0;
+                nums1Step ++;
+                continue;
+            }
+        }
+
+        if (isOdd) {
+            return rightPos == 0 ? nums1[right] : nums2[right];
+        } else {
+            return ((leftPos == 0 ? nums1[left] : nums2[left]) + (rightPos == 0 ? nums1[right] : nums2[right])) / 2.0;
+        }
+    }
+
+
+
     @Test
     public void test() {
         // should be 2.5
@@ -313,6 +393,15 @@ public class _0004MedianOfTwoSortedArrays {
         Assert.assertEquals(2.5, findMedianSortedArrays2(new int[]{3}, new int[]{1,2,4}), 0.0);
         Assert.assertEquals(3.0, findMedianSortedArrays2(new int[]{1,2,3,5}, new int[]{4}), 0.0);
         Assert.assertEquals(4.0, findMedianSortedArrays2(new int[]{1,2,3,4,6,7}, new int[]{5}), 0.0);
+    }
+
+    @Test
+    public void test3() {
+        Assert.assertEquals(4.5, findMedianSortedArrays3(new int[]{1,3,5,7}, new int[]{2,4,6,8}), 0.0);
+        Assert.assertEquals(2.0, findMedianSortedArrays3(new int[]{1,2}, new int[]{1,2,3}), 0.0);
+        Assert.assertEquals(2.5, findMedianSortedArrays3(new int[]{3}, new int[]{1,2,4}), 0.0);
+        Assert.assertEquals(3.0, findMedianSortedArrays3(new int[]{1,2,3,5}, new int[]{4}), 0.0);
+        Assert.assertEquals(4.0, findMedianSortedArrays3(new int[]{1,2,3,4,6,7}, new int[]{5}), 0.0);
     }
 
     @Test
