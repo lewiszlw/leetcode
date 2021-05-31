@@ -53,6 +53,9 @@ import org.junit.Test;
  */
 public class _0121BestTimeToBuyAndSellStock {
 
+    /**
+     * 解法1：双指针
+     */
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
         int i = 0;
@@ -81,9 +84,38 @@ public class _0121BestTimeToBuyAndSellStock {
         return maxProfit;
     }
 
+
+    /**
+     * 解法2：动态规划
+     * dp[i] 代表 (i, prices.length - 1] 数字中最大值，则
+     *     dp[i] = Math.max(dp[i + 1], prices[i + 1])
+     */
+    public int maxProfit2(int[] prices) {
+        int[] dp = new int[prices.length];
+        dp[prices.length - 1] = 0;
+        for (int i = prices.length - 2; i >= 0; i--) {
+            dp[i] = Math.max(dp[i + 1], prices[i + 1]);
+        }
+
+        int max = 0;
+        // 依次计算 prices[i] 和 i后面的最大值 的差值
+        for (int i = 0; i < prices.length; i++) {
+            max = Math.max(dp[i] - prices[i], max);
+        }
+        return max;
+    }
+
+
+
     @Test
     public void test() {
         Assert.assertTrue(maxProfit(new int[]{7,1,5,3,6,4}) == 5);
         Assert.assertTrue(maxProfit(new int[]{7,6,4,3,1}) == 0);
+    }
+
+    @Test
+    public void test2() {
+        Assert.assertTrue(maxProfit2(new int[]{7,1,5,3,6,4}) == 5);
+        Assert.assertTrue(maxProfit2(new int[]{7,6,4,3,1}) == 0);
     }
 }

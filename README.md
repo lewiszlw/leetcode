@@ -30,9 +30,6 @@
 [No.119 Pascal's Triangle II](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0119PascalsTriangleII.java)
 - solution (runtime: 10.19%)
 
-[No.121 Best Time to Buy and Sell Stock](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0121BestTimeToBuyAndSellStock.java)
-- solution (runtime: 80.79%)
-
 [No.125 Valid Palindrome](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0125ValidPalindrome.java)
 - solution (runtime: 96.33%)
 
@@ -109,6 +106,7 @@ No.169 Majority Element
 | 111 | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0111MinimumDepthOfBinaryTree.java) (100%) |
 | 112 | [Path Sum](https://leetcode-cn.com/problems/path-sum/) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0112PathSum.java) (100%) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0114FlattenBinaryTreeToLinkedList.java) (23.09%) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0121BestTimeToBuyAndSellStock.java) (80.79%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0121BestTimeToBuyAndSellStock.java) (19.29%) |
 | 128 | [Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence//) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0128LongestConsecutiveSequence.java) (21.12%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0128LongestConsecutiveSequence.java) (23.41%) |
 | 134 | [Gas Station](https://leetcode-cn.com/problems/gas-station/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0134GasStation.java) (47.90%) |
 | 142 | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0142LinkedListCycleII.java) (20.63%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0142LinkedListCycleII.java) (100%) |
