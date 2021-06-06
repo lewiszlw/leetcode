@@ -36,9 +36,6 @@
 [No.136 Single Number](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_136SingleNumber.java)
 - solution (runtime: 100%)
 
-[No.155 Min Stack](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0155MinStack.java)
-- solution (runtime: 94.32%)
-
 [No.160 Intersection of Two Linked Lists](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0160IntersectionOfTwoLinkedLists.java)
 - solution (runtime: 98.18%)
 
@@ -115,6 +112,7 @@ No.169 Majority Element
 | 146 | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0146LRUCache.java) (7.67%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0146LRUCache2.java) (60.13%) |
 | 148 | [Sort List](https://leetcode-cn.com/problems/sort-list/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0148SortList.java) (47.85%) |
 | 151 | [Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | Medium | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0151ReverseWordsInAString.java) (35.09%) |
+| 155 | [Min Stack](https://leetcode-cn.com/problems/min-stack/) | Easy | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0155MinStack.java) (94.32%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0155MinStack2.java) (32.33%) |
 | 206 | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list//) | Easy | [Java](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0206ReverseLinkedList.java) (100%) |
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0211AddAndSearchWord_DataStructureDesign.java) (6.91%) |
 | 215 | [Kth Largest Element in an Array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | Medium | [Java1](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0215KthLargestElementInAnArray.java) (91.34%)、[Java2](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0215KthLargestElementInAnArray.java) (91.31%)、[Java3](https://github.com/lewiszlw/leetcode/blob/master/leetcode-java/src/main/java/leetcode/algorithms/_0215KthLargestElementInAnArray.java) (36.53%) |

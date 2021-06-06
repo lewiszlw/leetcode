@@ -49,77 +49,62 @@ package leetcode.algorithms;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Stack;
 
 /**
- * 解法1：维护一个最小元素值变量，每次push/pop时更新这个变量
+ * 解法2：辅助栈
+ *
+ *  stack      min
+ *    0        0
+ *    2        1
+ *    3        1
+ *    1        1
+ *    5        5
+ * 1.值 v 入栈时，除了入栈stack外，同时入栈min，v与min栈顶元素top比较，如果v大于top，则入栈top到min，否则入栈v到min
+ * 2.出栈时，除了stack栈顶元素出栈，同时min栈顶元素出栈
+ *
+ * P.S.为了简便直接用Java Stack类，主要理解辅助栈。
  */
-public class _0155MinStack {
+public class _0155MinStack2 {
 
-    /**
-     * 最小元素
-     */
-    private int minEle;
+    Stack<Integer> stack;
 
-    /**
-     * 存放元素
-     */
-    private List<Integer> list;
+    Stack<Integer> minStack;
 
     /** initialize your data structure here. */
-    public _0155MinStack() {
-        list = new ArrayList<>();
-        minEle = Integer.MAX_VALUE;
+    public _0155MinStack2() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
     }
 
-    public void push(int x) {
-        list.add(x);
-        if (x < minEle){
-            // 更新最小元素
-            minEle = x;
+    public void push(int val) {
+        stack.push(val);
+        if (minStack.isEmpty()) {
+            minStack.push(val);
+        } else {
+            int top = minStack.peek();
+            int min = Math.min(top, val);
+            minStack.push(min);
         }
     }
 
     public void pop() {
-        if (list.size() == 0) {
-            throw new RuntimeException("No element in stack");
-        }
-        Integer removeInt = list.remove(list.size() - 1);
-        if (removeInt == minEle) {
-            // 如果移除了最小元素，重新寻找最小元素
-            minEle = findMin();
-        }
+        stack.pop();
+        minStack.pop();
     }
 
     public int top() {
-        if (list.size() == 0) {
-            throw new RuntimeException("No element in stack");
-        }
-        return list.get(list.size() - 1);
+        return stack.peek();
     }
 
     public int getMin() {
-        if (list.size() == 0) {
-            throw new RuntimeException("No element in stack");
-        }
-        return minEle;
-    }
-
-    private int findMin() {
-        int min = Integer.MAX_VALUE;
-        for (Integer x: list) {
-            if (x < min) {
-                min = x;
-            }
-        }
-        return min;
+        return minStack.peek();
     }
 
 
     @Test
     public void test() {
-        _0155MinStack stack = new _0155MinStack();
+        _0155MinStack2 stack = new _0155MinStack2();
         stack.push(-2);
         stack.push(0);
         stack.push(-3);
