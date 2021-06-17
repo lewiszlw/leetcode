@@ -1,10 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/lewiszlw/notebooks/master/assets/leetcode/leetcode-icon.jpeg"></p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/55/1023-Solved/Total-blue.svg" alt="">
-    <img src="https://img.shields.io/badge/Easy-42-green.svg" alt="">
-    <img src="https://img.shields.io/badge/Medium-11-orange.svg" alt="">
-    <img src="https://img.shields.io/badge/Hard-2-red.svg" alt="">
+    <img src="https://img.shields.io/badge/103/2122-Solved/Total-blue.svg" alt="">
+    <img src="https://img.shields.io/badge/Easy-48-green.svg" alt="">
+    <img src="https://img.shields.io/badge/Medium-49-orange.svg" alt="">
+    <img src="https://img.shields.io/badge/Hard-6-red.svg" alt="">
     <img src="https://img.shields.io/badge/language-java|c-yellow.svg" alt="">
 </p>
 
@@ -12,7 +12,6 @@
 对自己解法不满意，或者想看看他人解法：
 - No.28 Implement strStr()
 - No.119 Pascal's Triangle II
-- No.155 Min Stack
 - No.167 Two Sum II - Input array is sorted
 - No.169 Majority Element
 - No.217 Contains Duplicate
